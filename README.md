@@ -178,13 +178,6 @@ disp.plot(values_format = '')
 ```
 <img width="547" height="436" alt="image" src="https://github.com/user-attachments/assets/21153a0e-f16d-4da7-be14-51c5f4d26a6a" />
 
-You can find this file in the repository
-
-```
-import pickle
-with open('tuned_dt.pkl', 'wb') as file:
-  pickle.dump(clf, file)
-```
 ## Random Forest Model
 
 
@@ -230,12 +223,6 @@ rf_clf.fit(X_train, y_train)
 ```
 <img width="719" height="207" alt="image" src="https://github.com/user-attachments/assets/17719794-c4f0-4c43-9498-10450092c8c6" />
 
-Save the tuned random forest model. You can find it in the repository
-
-```
-with open('tuned_rf.pkl', 'wb') as file:
-    pickle.dump(rf_clf, file)
-```
 Train the optimised random forest model with best parameters
 
 ```
